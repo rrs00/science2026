@@ -304,7 +304,7 @@
                                         질량 변화 그래프
                                     </h2>
 
-                                    <div className="space-y-4">
+                                    <div className="space-y-6">
                                         {/* 구리 질량 바 */}
                                         <div>
                                             <div className="flex justify-between mb-1 text-sm font-medium">
@@ -315,20 +315,6 @@
                                                 <div
                                                     className="h-full bg-orange-600 transition-all duration-300 rounded-full"
                                                     style={{ width: `${(massCu / 25) * 100}%` }}
-                                                ></div>
-                                            </div>
-                                        </div>
-
-                                        {/* 결합한 산소 질량 바 */}
-                                        <div>
-                                            <div className="flex justify-between mb-1 text-sm font-medium">
-                                                <span className="text-red-600">결합한 산소 (O) 질량</span>
-                                                <span>{currentMassO.toFixed(1)} g</span>
-                                            </div>
-                                            <div className="w-full bg-slate-100 h-6 rounded-full overflow-hidden">
-                                                <div
-                                                    className="h-full bg-red-500 transition-all duration-300 rounded-full"
-                                                    style={{ width: `${(currentMassO / 25) * 100}%` }}
                                                 ></div>
                                             </div>
                                         </div>
